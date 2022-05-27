@@ -1,4 +1,4 @@
-# portfolio sandbox
+# SeeMyWork
 
 ## Description
 <p>This repository contains the current sandbox directory for conducting experiments on the display of my body of current and past work.
@@ -12,6 +12,16 @@
 
 ## Links
 See it live:<br> [See My Work](https://mcjbyday.github.io/seemywork/)
+
+## Usage
+
+In project root:
+
+        `npm start`
+
+Runs the app in the development mode.
+
+At [http://localhost:3000](http://localhost:3000) the application can be viewed in browser.
 
     
 ## Screenshots
