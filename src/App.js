@@ -9,7 +9,6 @@ function App() {
     <div className="the-work">
       <Top />
       <Main />
-      <Bottom />
     </div>
   );
 }
