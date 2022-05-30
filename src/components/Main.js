@@ -7,6 +7,7 @@ function Main() {
   // let myName = "Michael Jacobs";
   // let navItemList = ["About", "Work", "Contact"];
 
+  
   return ( 
     <div>
       <main class="main_container">
