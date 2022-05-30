@@ -16,7 +16,7 @@ function Main() {
             <div class="about_container">
                 <section class="section_name">About</section>
                 <section class="section_name">
-                    <img id="avatar_img" class="col-1" alt="Shows Head of an Angel statue"></img>
+                    <img id="avatar_img" class="col-1" alt="Angel Statue"></img>
                 </section>   
                 <div class="pointer_items_custom">( Tap on me to keep me around... )</div>
                 <div class="pointer_items_custom_arrow">⤻</div>

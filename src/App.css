@@ -34,6 +34,12 @@ body {
   flex-flow: column nowrap;
 }
 
+
+ol,
+ul {
+  list-style: none;
+}
+
 /* properties applicable to header, nav, and banner items*/
 .header_container {
   display: flex;
@@ -389,6 +395,8 @@ body {
 
 /* properties for links*/
 a {
+  color: #000;
+  text-decoration: none;
   font-size: inherit;
   outline: none;
   color: var(--lightest);
