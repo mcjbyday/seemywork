@@ -1,16 +1,30 @@
 /* declare global variables */
 :root {
-  --darkest: rgb(3, 42, 82, 1);
+  /* --darkest: rgba(15, 30, 35, 0.95);
+  --flatText: rgb(192, 203, 227, 0.6);
+  --lightest: rgb(192, 203, 227, 0.95);
+  --grayTone: rgb(127, 160, 232, 0.91);
+  --offDark: rgb(55, 65, 99, 0.39);
+  --textcolor1: rgb(255, 255, 255, 1); */
+
+  --darkest: rgb(20, 30, 24, 1);
+  --flatText: rgb( 174, 189, 180, 1);
+  --lightest: rgb(124, 200, 154, 1);
+  --grayTone: rgb(127, 138, 131, 1);
+  --offDark: rgba(174, 189, 180, 1);
+  --textcolor1: rgb(255, 255, 255, 1);
+
+  /* --darkest: rgb(3, 42, 82, 1);
   --flatText: rgb(121, 169, 217, 1);
   --lightest: rgb(8, 109, 209, 1);
   --grayTone: rgb(109, 111, 112, 1);
   --offDark: rgb(6, 81, 158, 1);
-  --textcolor1: rgb(255, 255, 255, 1);
+  --textcolor1: rgb(255, 255, 255, 1); */
 
-  --mainbackg: rgb(100, 100, 100);
+  --mainbackg: rgb(85, 89, 99, 0.19);
   --backg1: linear-gradient(
-      rgb(121, 169, 217, 0.4) 25%,
-      rgb(3, 42, 82,  0.6) 85%
+    rgb(127, 138, 131, 1) 25%,
+    rgb(20, 30, 24, 1 ) 85%
   );
   /* global sizing */
   --container-w-mins: 60vw;
@@ -29,9 +43,35 @@
 
 /* properties applicable to all items*/
 body {
-  background-color: var(--darkest);
   display: flex;
   flex-flow: column nowrap;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  animation: animate 60s ease infinite;
+  /* background-color: var(--darkest); */
+	/* background-color: linear-gradient(
+    rgb(127, 138, 131, 1) 25%,
+    rgb(20, 30, 24, 1 ) 85%); */
+}
+
+@keyframes animate {
+  0%, 100%{
+    background-image: URL(https://images.pexels.com/photos/5331847/pexels-photo-5331847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    
+  }
+  25%{
+    background-image: URL(https://images.pexels.com/photos/5331840/pexels-photo-5331840.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    
+  }
+  50%{
+    background-image: URL(https://images.pexels.com/photos/5331849/pexels-photo-5331849.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  }
+  75%{
+    background-image: URL(https://images.pexels.com/photos/7435254/pexels-photo-7435254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+  }
 }
 
 
@@ -261,7 +301,7 @@ ul {
 }
 
 /* shared properties granted to tile images */
-.tile_link, .tile_example {
+.tile_link, .tile_example { 
   display: flex;
   min-width: var(--tile-w-mins);
   min-height: var(--tile-h-mins);
