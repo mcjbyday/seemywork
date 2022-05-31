@@ -29,10 +29,8 @@ function Main() {
             </article>
         </section>
         {/* work container, tiles, and content */}
-        <section class="content_containers" id="card_container">
         <Hero />
         <Grit />
-        </section>
         <Bottom />
       </main>
       <footer class="footer">Made with logic and arithmetic <a href="https://github.com/mcjbyday/02-seemywork" target="_blank"><span class="githubicon"></span></a></footer>

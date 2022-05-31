@@ -1,7 +1,7 @@
 function Grit() {
   
   return ( 
-    <div>
+    <section class="content_containers" id="card_container_grit">
         <a class="tile_link" href="https://mcjbyday.github.io/digizen/" target="_blank" rel="noreferrer">
             <div class="pointer_items_right">"Digizen" Etch-a-Sketch</div>
             <div class="pointer_items_right_arrow">⤸</div>
@@ -79,7 +79,7 @@ function Grit() {
                 <p class="tile_label">Post-launch Content and Feature Expansion</p>
             </section>
         </a>
-    </div>
+    </section>
   )
 };
 
