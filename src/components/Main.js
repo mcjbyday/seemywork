@@ -1,31 +1,37 @@
 import Hero from './Hero';
 import Grit from './Grit';
 import Bottom from './Bottom';
+import { useState } from 'react';
+
+import angel from "../images/figures/angel.jpg";
+import profilePicture from "../images/figures/img_0694682396022516.png";
 
 
 function Main() {
   // let myName = "Michael Jacobs";
   // let navItemList = ["About", "Work", "Contact"];
 
-  
+  let [myAvatar, setMyAvatar] = useState(angel);
+
+
   return ( 
     <div>
-      <main class="main_container">
+      <main className="main_container">
         {/* top overview container and content */}
-        <section class="content_containers" id="top_container">
-            <div class="about_container">
-                <section class="section_name">About</section>
-                <section class="section_name">
-                    <img id="avatar_img" class="col-1" alt="Angel Statue"></img>
+        <section className="content_containers" id="top_container">
+            <div className="about_container">
+                <section className="section_name">About</section>
+                <section className="section_name">
+                    <img className="avatar_img col-1" alt="Angel Statue" src={myAvatar} onClick={() => (myAvatar === angel) ? setMyAvatar(profilePicture) : setMyAvatar(angel)}></img>
                 </section>   
-                <div class="pointer_items_custom">( Tap on me to keep me around... )</div>
-                <div class="pointer_items_custom_arrow">⤻</div>
+                <div className="pointer_items_custom">( Tap on me to keep me around... )</div>
+                <div className="pointer_items_custom_arrow">⤻</div>
             </div>
-            <article class="section_article">
-                <p class="article_copy">I build things using contemporary skills and relevant tools...</p>
-                <p class="article_copy">I recently completed my sixth year operating in life sciences technology start ups...</p>
-                <p class="article_copy">I was previously a product manager for <a href="https://twitter.com/levelex" target="_blank" rel="noreferrer"><span>@LevelEx</span></a></p>
-                <p class="article_copy">Check out some of my work...</p>
+            <article className="section_article">
+                <p className="article_copy">I build things using contemporary skills and relevant tools...</p>
+                <p className="article_copy">I recently completed my sixth year operating in life sciences technology start ups...</p>
+                <p className="article_copy">I was previously a product manager for <a href="https://twitter.com/levelex" target="_blank" rel="noreferrer"><span>@LevelEx</span></a></p>
+                <p className="article_copy">Check out some of my work...</p>
             </article>
         </section>
         {/* work container, tiles, and content */}
@@ -33,7 +39,7 @@ function Main() {
         <Grit />
         <Bottom />
       </main>
-      <footer class="footer">Made with logic and arithmetic <a href="https://github.com/mcjbyday/02-seemywork" target="_blank"><span class="githubicon"></span></a></footer>
+      <footer className="footer">Made with logic and arithmetic <a href="https://github.com/mcjbyday/02-seemywork" target="_blank"><span className="githubicon"></span></a></footer>
 
     </div>
   )
