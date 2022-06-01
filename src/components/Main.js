@@ -13,6 +13,23 @@ function Main() {
 
   let [myAvatar, setMyAvatar] = useState(angel);
 
+  let myProfileStyle = {
+    border: "1px solid var(--darkest)",
+    borderRadius: "50%",
+    zIndex: "100",
+    minWidth: "115px",
+    filter: "none",
+    opacity: "1"
+  }
+
+  let myAngelStyle = {
+    border: "1px solid var(--darkest)",
+    borderRadius: "50%",
+    zIndex: "100",
+    minWidth: "115px",
+    filter: "blur(0.2rem)",
+    opacity: "85%"
+  }
 
   return ( 
     <div>
@@ -22,7 +39,7 @@ function Main() {
             <div className="about_container">
                 <section className="section_name">About</section>
                 <section className="section_name">
-                    <img className="avatar_img col-1" alt="Angel Statue" src={myAvatar} onClick={() => (myAvatar === angel) ? setMyAvatar(profilePicture) : setMyAvatar(angel)}></img>
+                    <img className="col-1" alt="Angel Statue" src={myAvatar} style= {(myAvatar === angel) ? myAngelStyle : myProfileStyle } onClick={() => (myAvatar === angel) ? setMyAvatar(profilePicture) : setMyAvatar(angel)}></img>
                 </section>   
                 <div className="pointer_items_custom">( Tap on me to keep me around... )</div>
                 <div className="pointer_items_custom_arrow">⤻</div>

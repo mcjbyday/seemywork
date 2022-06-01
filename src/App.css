@@ -188,8 +188,10 @@ ul {
   border-radius: 50%;
   z-index: 100;
   min-width: 115px;
-  filter: blur(0.2rem);
-  opacity: 85%;
+  /* filter: blur(0.2rem);
+  opacity: 85%; */
+  filter: none;
+  opacity: 1;
 }
 
 #top_container, #CTA_container {
