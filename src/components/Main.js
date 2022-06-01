@@ -4,7 +4,7 @@ import Bottom from './Bottom';
 import { useState } from 'react';
 
 import angel from "../images/figures/angel.jpg";
-import profilePicture from "../images/figures/img_0694682396022516.png";
+import profilePicture from "../images/figures/profile.png";
 
 
 function Main() {
