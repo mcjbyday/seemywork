@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/seemywork/static/css/main.038f4a6a.css",
+    "main.js": "/seemywork/static/js/main.e707c5b0.js",
+    "static/media/Capture-micraimplantation.gif": "/seemywork/static/media/Capture-micraimplantation.33ec9cd8d799d45d31ea.gif",
+    "static/media/Screenshot-cardioex.gif": "/seemywork/static/media/Screenshot-cardioex.efbb4e0bb26ca1592580.gif",
+    "static/media/Capture-cascades.gif": "/seemywork/static/media/Capture-cascades.ab86f0e5ccf201241d5e.gif",
+    "static/media/Capture-notfinancialadvice.gif": "/seemywork/static/media/Capture-notfinancialadvice.dff5890c91b9d12c49f0.gif",
+    "static/media/Screenshot-covid19.png": "/seemywork/static/media/Screenshot-covid19.7bba46a39d3a54882d96.png",
+    "static/media/Capture-quizapp.gif": "/seemywork/static/media/Capture-quizapp.d1e356fa71711a3b2cc4.gif",
+    "static/media/etch.gif": "/seemywork/static/media/etch.bea337fcd31e093b0b03.gif",
+    "static/media/img_png": "/seemywork/static/media/img_0694682396022516.caa4eac2c9299263e152.png",
+    "static/media/Screenshot-cascades.png": "/seemywork/static/media/Screenshot-cascades.6a668e5fe64572c45f31.png",
+    "static/media/Capture-codechorus.gif": "/seemywork/static/media/Capture-codechorus.3d70355de8b9481c83c3.gif",
+    "static/media/Capture-dayplanner.gif": "/seemywork/static/media/Capture-dayplanner.dff24ecd7127e5e79014.gif",
+    "static/media/Capture-getweather.gif": "/seemywork/static/media/Capture-getweather.5617cc00e74efc801f1d.gif",
+    "static/media/Screenshot-top-derm.png": "/seemywork/static/media/Screenshot-top-derm.37e6f6e23ab74f7fcb65.png",
+    "static/media/angel.jpg": "/seemywork/static/media/angel.45a425089f4ae43a6673.jpg",
+    "index.html": "/seemywork/index.html",
+    "main.038f4a6a.css.map": "/seemywork/static/css/main.038f4a6a.css.map",
+    "main.e707c5b0.js.map": "/seemywork/static/js/main.e707c5b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.038f4a6a.css",
+    "static/js/main.e707c5b0.js"
+  ]
+}
