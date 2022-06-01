@@ -45,8 +45,8 @@ function Main() {
                 <div className="pointer_items_custom_arrow">⤻</div>
             </div>
             <article className="section_article">
-                <p className="article_copy">I build things using contemporary skills and relevant tools...</p>
-                <p className="article_copy">I recently completed my sixth year operating in life sciences technology start ups...</p>
+                <p className="article_copy">I'm here to bring joy back to the web using contemporary skills and best-in-class tools</p>
+                <p className="article_copy">I recently completed my sixth year operating in life sciences technology start ups</p>
                 <p className="article_copy">I was previously a product manager for <a href="https://twitter.com/levelex" target="_blank" rel="noreferrer"><span>@LevelEx</span></a></p>
                 <p className="article_copy">Check out some of my work...</p>
             </article>
@@ -56,8 +56,6 @@ function Main() {
         <Grit />
         <Bottom />
       </main>
-      <footer className="footer">Made with logic and arithmetic <a href="https://github.com/mcjbyday/02-seemywork" target="_blank"><span className="githubicon"></span></a></footer>
-
     </div>
   )
 };
