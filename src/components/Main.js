@@ -17,18 +17,30 @@ function Main() {
     border: "1px solid var(--darkest)",
     borderRadius: "50%",
     zIndex: "100",
-    minWidth: "115px",
+    minWidth: "125px",
+    maxHeight: "125px",
     filter: "none",
-    opacity: "1"
+    opacity: "1",
+    webkitTransition: "all 0.3s ease-in-out",
+    mozTransition: "all 0.3s ease-in-out",
+    msTransition: "all 0.3s ease-in-out",
+    oTransition: "all 0.3s ease-in-out",
+    transition: "all 0.3s ease-in-out"
   }
 
   let myAngelStyle = {
     border: "1px solid var(--darkest)",
     borderRadius: "50%",
     zIndex: "100",
-    minWidth: "115px",
+    minWidth: "125px",
+    maxHeight: "125px",
     filter: "blur(0.2rem)",
-    opacity: "85%"
+    opacity: "85%",
+    webkitTransition: "all 0.3s ease-out",
+    mozTransition: "all 0.3s ease-out",
+    msTransition: "all 0.3s ease-out",
+    oTransition: "all 0.3s ease-out",
+    transition: "all 0.3s ease-out"
   }
 
   return ( 
