@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/seemywork/static/css/main.f3b993c7.css",
-    "main.js": "/seemywork/static/js/main.64e1c9d9.js",
+    "main.css": "/seemywork/static/css/main.4c66d258.css",
+    "main.js": "/seemywork/static/js/main.cd04b9ad.js",
     "static/media/Capture-micraimplantation.gif": "/seemywork/static/media/Capture-micraimplantation.33ec9cd8d799d45d31ea.gif",
     "static/media/Screenshot-cardioex.gif": "/seemywork/static/media/Screenshot-cardioex.efbb4e0bb26ca1592580.gif",
     "static/media/Capture-cascades.gif": "/seemywork/static/media/Capture-cascades.ab86f0e5ccf201241d5e.gif",
@@ -17,11 +17,11 @@
     "static/media/Screenshot-top-derm.png": "/seemywork/static/media/Screenshot-top-derm.37e6f6e23ab74f7fcb65.png",
     "static/media/angel.jpg": "/seemywork/static/media/angel.45a425089f4ae43a6673.jpg",
     "index.html": "/seemywork/index.html",
-    "main.f3b993c7.css.map": "/seemywork/static/css/main.f3b993c7.css.map",
-    "main.64e1c9d9.js.map": "/seemywork/static/js/main.64e1c9d9.js.map"
+    "main.4c66d258.css.map": "/seemywork/static/css/main.4c66d258.css.map",
+    "main.cd04b9ad.js.map": "/seemywork/static/js/main.cd04b9ad.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3b993c7.css",
-    "static/js/main.64e1c9d9.js"
+    "static/css/main.4c66d258.css",
+    "static/js/main.cd04b9ad.js"
   ]
 }
