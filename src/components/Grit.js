@@ -31,14 +31,14 @@ function Grit() {
                 <p class="tile_label">Front-End Development</p>
             </section>
         </a>
-        <a class="tile_link" href="https://mcjbyday.github.io/06-wheresmyweather/" target="_blank" rel="noreferrer">
+        <a class="tile_link" href="https://mcjbyday.github.io/wheresmyweather/" target="_blank" rel="noreferrer">
             <div class="pointer_items_left">Where's my weather</div>
             <div class="pointer_items_left_arrow">⤹</div>
             <section class="tile_example" style={{backgroundImage: `URL(${mediaWeather})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center", objectFit: "contain"}} id="getweather">
                 <p class="tile_label">Front-End Development</p>
             </section>
         </a>
-        <a class="tile_link" href="https://mcjbyday.github.io/04-quizapp/" target="_blank" rel="noreferrer">
+        <a class="tile_link" href="https://mcjbyday.github.io/quizapp/" target="_blank" rel="noreferrer">
             <div class="pointer_items_right">Quiz App</div>
             <div class="pointer_items_right_arrow">⤸</div>
             <section class="tile_example" style={{backgroundImage: `URL(${mediaQuiz})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center", objectFit: "contain"}} id="quizapp">
@@ -52,7 +52,7 @@ function Grit() {
                 <p class="tile_label">Front-End Development</p>
             </section>
         </a>
-        <a class="tile_link" href="https://mcjbyday.github.io/05-dayplanner/" target="_blank" rel="noreferrer">
+        <a class="tile_link" href="https://mcjbyday.github.io/dayplanner/" target="_blank" rel="noreferrer">
             <div class="pointer_items_right">Day Planner</div>
             <div class="pointer_items_right_arrow">⤸</div>
             <section class="tile_example" style={{backgroundImage: `URL(${mediaDayplanner})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center", objectFit: "contain"}} id="dayplanner">
