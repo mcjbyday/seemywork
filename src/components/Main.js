@@ -51,7 +51,7 @@ function Main() {
             <div className="about_container">
                 <section className="section_name">About</section>
                 <section className="section_name">
-                    <img className="col-1" alt={(myAvatar === angel) ? "Angle Statue" : "Picture of Author"} src={myAvatar} style= {(myAvatar === angel) ? myAngelStyle : myProfileStyle } onClick={() => (myAvatar === angel) ? setMyAvatar(profilePicture) : setMyAvatar(angel)}></img>
+                    <img className="col-1" alt={(myAvatar === angel) ? "Angel Statue" : "Picture of Author"} src={myAvatar} style= {(myAvatar === angel) ? myAngelStyle : myProfileStyle } onClick={() => (myAvatar === angel) ? setMyAvatar(profilePicture) : setMyAvatar(angel)}></img>
                 </section>   
                 <div className="pointer_items_custom">( Tap on me to keep me around... )</div>
                 <div className="pointer_items_custom_arrow">⤻</div>
