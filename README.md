@@ -1,14 +1,14 @@
 # SeeMyWork
 
 ## Description
-<p>This repository contains the current sandbox directory for conducting experiments on the display of my body of current and past work.
+<p>This repository contains the a single page web app used to display a mobile-friendly summary of current and past work.
 
 ## Technologies
+- React.js
 - HTML5
 - CSS3
 - Javascript
 - Bootstrap
-- React.js
 
 ## Links
 See it live:<br> [See My Work](https://mcjbyday.github.io/seemywork/)
@@ -17,9 +17,9 @@ See it live:<br> [See My Work](https://mcjbyday.github.io/seemywork/)
 
 In project root:
 
-        `npm start`
+        `npm run start`
 
-Runs the app in the development mode.
+Runs the app for use in development mode.
 
 At [http://localhost:3000](http://localhost:3000) the application can be viewed in browser.
 
@@ -27,8 +27,9 @@ At [http://localhost:3000](http://localhost:3000) the application can be viewed 
 ## Screenshots
 | Image | Description |
 | --- | ----------- |
-| ![Webpage Screenshot 1]() |  |
-| ![Webpage Screenshot 2]() |  |
+| ![Webpage Screenshot 1](./src/images/reference/screencapture_desktop.png) | Desktop  |
+| ![Webpage Screenshot 2](./src/images/reference/screencapture_mobile1.png) | Mobile Page Top |
+| ![Webpage Screenshot 3](./src/images/reference/screencapture_mobile2.png) | Mobile Page Mid |
 
 
 ## References
