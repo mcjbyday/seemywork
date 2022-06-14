@@ -27,6 +27,7 @@ function Main() {
     oTransition: "all 0.3s ease-in-out",
     transition: "all 0.3s ease-in-out"
   }
+  
 
   let myAngelStyle = {
     border: "1px solid var(--darkest)",

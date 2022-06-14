@@ -1,3 +1,4 @@
+import bitesites from "../images/figures/Capture-codechorus.gif";
 
 import mediaEtch from "../images/figures/etch.gif";
 
@@ -24,6 +25,13 @@ function Grit() {
   
   return ( 
     <section class="content_containers" id="card_container_grit">
+        <a class="tile_link" href="https://codechorus.heroku.app/" target="_blank" rel="noreferrer">
+            <div class="pointer_items_left">CodeChorus Tech Forum</div>
+            <div class="pointer_items_left_arrow">⤹</div>
+            <section class="tile_example" style={{backgroundImage: `URL(${bitesites})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center", objectFit: "contain"}} id="codechorus">
+                <p class="tile_label">FullStack Development</p>
+            </section>
+        </a>
         <a class="tile_link" href="https://mcjbyday.github.io/digizen/" target="_blank" rel="noreferrer">
             <div class="pointer_items_right">"Digizen" Etch-a-Sketch</div>
             <div class="pointer_items_right_arrow">⤸</div>
