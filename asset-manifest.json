@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/seemywork/static/css/main.4c66d258.css",
-    "main.js": "/seemywork/static/js/main.07a93ac1.js",
+    "main.js": "/seemywork/static/js/main.a44efd83.js",
     "static/media/Capture-micraimplantation.gif": "/seemywork/static/media/Capture-micraimplantation.33ec9cd8d799d45d31ea.gif",
     "static/media/Screenshot-cardioex.gif": "/seemywork/static/media/Screenshot-cardioex.efbb4e0bb26ca1592580.gif",
     "static/media/Capture-cascades.gif": "/seemywork/static/media/Capture-cascades.ab86f0e5ccf201241d5e.gif",
@@ -12,16 +12,17 @@
     "static/media/profile.png": "/seemywork/static/media/profile.caa4eac2c9299263e152.png",
     "static/media/Screenshot-cascades.png": "/seemywork/static/media/Screenshot-cascades.6a668e5fe64572c45f31.png",
     "static/media/Capture-codechorus.gif": "/seemywork/static/media/Capture-codechorus.3d70355de8b9481c83c3.gif",
+    "static/media/Capture-bitesites.gif": "/seemywork/static/media/Capture-bitesites.ba7787af34402aec0c3c.gif",
     "static/media/Capture-dayplanner.gif": "/seemywork/static/media/Capture-dayplanner.dff24ecd7127e5e79014.gif",
     "static/media/Capture-getweather.gif": "/seemywork/static/media/Capture-getweather.5617cc00e74efc801f1d.gif",
     "static/media/Screenshot-top-derm.png": "/seemywork/static/media/Screenshot-top-derm.37e6f6e23ab74f7fcb65.png",
     "static/media/angel.jpg": "/seemywork/static/media/angel.45a425089f4ae43a6673.jpg",
     "index.html": "/seemywork/index.html",
     "main.4c66d258.css.map": "/seemywork/static/css/main.4c66d258.css.map",
-    "main.07a93ac1.js.map": "/seemywork/static/js/main.07a93ac1.js.map"
+    "main.a44efd83.js.map": "/seemywork/static/js/main.a44efd83.js.map"
   },
   "entrypoints": [
     "static/css/main.4c66d258.css",
-    "static/js/main.07a93ac1.js"
+    "static/js/main.a44efd83.js"
   ]
 }
