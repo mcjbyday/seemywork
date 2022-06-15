@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/seemywork/static/css/main.a1b4e322.css",
+    "main.css": "/seemywork/static/css/main.ae9b296f.css",
     "main.js": "/seemywork/static/js/main.c9a18545.js",
     "static/media/Capture-micraimplantation.gif": "/seemywork/static/media/Capture-micraimplantation.33ec9cd8d799d45d31ea.gif",
     "static/media/Screenshot-cardioex.gif": "/seemywork/static/media/Screenshot-cardioex.efbb4e0bb26ca1592580.gif",
@@ -18,11 +18,11 @@
     "static/media/Screenshot-top-derm.png": "/seemywork/static/media/Screenshot-top-derm.37e6f6e23ab74f7fcb65.png",
     "static/media/angel.jpg": "/seemywork/static/media/angel.45a425089f4ae43a6673.jpg",
     "index.html": "/seemywork/index.html",
-    "main.a1b4e322.css.map": "/seemywork/static/css/main.a1b4e322.css.map",
+    "main.ae9b296f.css.map": "/seemywork/static/css/main.ae9b296f.css.map",
     "main.c9a18545.js.map": "/seemywork/static/js/main.c9a18545.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1b4e322.css",
+    "static/css/main.ae9b296f.css",
     "static/js/main.c9a18545.js"
   ]
 }
