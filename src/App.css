@@ -144,13 +144,19 @@ a {
 }
 /* properties applicable to hover state on nav and banner items*/
 .nav_items:hover, .nav_items:active {
-  box-shadow: 1px 1px 3px var(--grayTone), 0 0 1em var(--grayTone), 0 0 0.2em var(--grayTone);
-  border: 1px solid var(--grayTone);
+  /* text-shadow: 1px 1px 3px var(--grayTone), 0 0 1em var(--grayTone), 0 0 0.2em var(--grayTone); */
+  text-shadow: 1px 1px 3px var(--grayTone);
+  color: var(--offDark);
+  /* text-border: 1px solid var(--grayTone); */
+  /* box-shadow: inset 0px 0px 8px 
+  rgb(105, 172, 234, 0.8), 
+  0 0 15px rgb(35, 136, 230, 1); */
+  /* border: 1px solid var(--grayTone); */
   /* box-shadow: inset 1px 1px 0px var(--lightest), 
   0px 0px 15px var(--lightest) ; */
   /* color: */
   cursor: URL("./images/pngs/cursor.png");
-  border-radius: 50px;
+  /* border-radius: 50px; */
 }
 
 .banner_section {
