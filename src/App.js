@@ -11,7 +11,7 @@ function App() {
       <div className="holder">
         <Main />
       </div>
-      <footer className="footer" style={{color: "var(--textcolor1)", fontSize: "12pt", fontWeight: "bold", alignSelf: "center", padding: "1%"}}>Made with logic and arithmetic <a href="https://github.com/mcjbyday/seemywork" target="_blank" rel="noreferrer"><span className="githubicon"></span></a></footer>
+      <footer className="footer" style={{color: "var(--textcolor1)", fontSize: "12pt", fontWeight: "bold", alignSelf: "center", padding: "1%"}}><a href="https://github.com/mcjbyday/seemywork" target="_blank" rel="noreferrer"><span className="githubicon"></span></a></footer>
     </div>
   );
 }
