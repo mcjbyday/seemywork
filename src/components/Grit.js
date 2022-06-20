@@ -25,7 +25,7 @@ function Grit() {
   
   return ( 
     <section class="content_containers" id="card_container_grit">
-        <a class="tile_link" href="https://codechorus.heroku.app/" target="_blank" rel="noreferrer">
+        <a class="tile_link" href="https://codechorusforum.herokuapp.com/" target="_blank" rel="noreferrer">
             <div class="pointer_items_left">CodeChorus Tech Forum</div>
             <div class="pointer_items_left_arrow">⤹</div>
             <section class="tile_example" style={{backgroundImage: `URL(${bitesites})`, backgroundSize: "contain", backgroundRepeat: "no-repeat", backgroundPosition: "center", objectFit: "contain"}} id="codechorus">
